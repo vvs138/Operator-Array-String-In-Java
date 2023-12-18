@@ -1,0 +1,64 @@
+What is operators in java?
+Ans-->
+Arithmetic operators
+Ternary operators
+unary operators
+Relational operators
+Assignment operators
+Logical operators
+
+Explain about increment and decrement operators and give an examples.
+Ans-->
+increment and decrement operators are used to increase and reduce the value by 1.
+increment operator- ++
+decrement operator- --
+
+What are the conditional operators in java?
+Ans-->
+They are use when there is a condition arrives. Ex- print the statement if variable x is greater then 2 . Means if this and do this.
+Syntax:-
+if(condition-1 $$/|| condition-2){
+    statement
+}
+
+What are the types of operators based on the number of operands?
+Ans-->
+.Unary operator 
+.Binary operator
+.Ternary operator
+
+What are the conditional statements and use of conditional statements in java?
+Ans-->
+if- to specify a block of code to be executed. if a specified condition is true.
+else- to specify a block of code to be executed. if a specified condition id false.
+Switch- to specify many blocks of code.
+
+What is the Syntax of if else statement?
+Ans-->
+if(condition){
+    statement[condition is true]
+}
+else(condition){
+    statement[if condition of if is false]
+}
+
+What are 3 iterative statements in java?
+Ans-->
+for loop
+while loop
+do-while loop
+
+What do you mean by Array?
+Ans-->
+Collection of fixed no. of homogenous element is called array.
+
+How to create an Array?
+Ans-->
+Array declaration-
+int a[5];
+
+State the difference between StringBuffer and StringBuilder in java.
+Ans-->
+
+The main difference between `StringBuffer` and `StringBuilder` in Java is that `StringBuffer` is thread-safe (synchronized), while `StringBuilder` is not. This means that if multiple threads are working with a `StringBuffer` object, access is synchronized to ensure data consistency. On the other hand, `StringBuilder` is faster in a single-threaded environment but is not suitable for concurrent operations due to its lack of synchronization.
+
